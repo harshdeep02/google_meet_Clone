@@ -1,0 +1,702 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navabr */
+
+.navbar {
+    /* width: 100%; */
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    /* position: fixed; */
+    /* top: 0.5rem; */
+    /* border: 2px solid rgb(255, 217, 217); */
+    /* background-color: white; */
+    box-shadow: 0px 3px 9px #d9d2d2
+}
+
+.meet-nav img {
+    position: relative;
+    top: 0.8rem;
+}
+
+.meet-nav a {
+    text-decoration: none;
+    color: rgb(75, 71, 71);
+    font-size: 2rem;
+    top: 0.4rem;
+    position: relative;
+}
+
+.nav-mid ul {
+    width: 34rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    top: 1.3rem;
+}
+
+.nav-mid ul a {
+    text-decoration: none;
+    color: #716c6c;
+    position: relative;
+    top: 0.3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+.nav-mid ul a:hover {
+    color: black;
+    font-weight: 600;
+
+}
+
+.nav-end {
+    /* position: relative;
+    top: 1.2rem; */
+}
+
+.nav-end button {
+    width: 8rem;
+    padding: 0.8rem 0rem;
+    margin: 0.7rem 0.3rem;
+}
+
+.nav-end button:nth-child(1) {
+    border: 1px solid #b8b3b3;
+    background-color: white;
+    border-radius: 0.4rem;
+}
+
+.nav-end button:nth-child(1) a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.nav-end button:nth-child(1):hover {
+    background-color: #e8e8e8ab;
+    cursor: pointer;
+}
+
+.nav-end button:nth-child(2):hover {
+    background-color: #1351a3;
+    cursor: pointer;
+}
+
+.nav-end button:nth-child(2) {
+    background-color: #1a73e8;
+    border: #1a73e8;
+    border-radius: 0.3rem;
+}
+
+.nav-end button:nth-child(2) a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+/* container-2 */
+
+
+.container-2 {
+    position: relative;
+    top: 10rem;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'text1 img1'
+        'text2 img2'
+        'img3 text3'
+        'text4 img4'
+        'img5 text5'
+        'text6 img6'
+    ;
+}
+
+#text1 {
+    grid-area: text1;
+    width: 34rem;
+    margin-right: 7rem;
+
+
+}
+
+#text1 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text1 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+#img1 {
+    grid-area: img1;
+    /* margin-left: -28rem; */
+}
+
+#img1 img {
+    width: 30rem;
+}
+
+#text1 button {
+    width: 8rem;
+    padding: 1rem 0rem;
+    background-color: #1a73e8;
+    border: #1a73e8;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+
+}
+
+#text1 button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    border-radius: 0.4rem;
+
+}
+
+#text1 span {
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#text1 span a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+#text- button:nth-child(2) {
+    width: 2rem;
+}
+
+#text1 span input {
+    height: 3rem;
+    margin: 1rem;
+    border: 1px solid #b8b3b3;
+    border-radius: 0.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+#text1 span input::placeholder {
+    color: #585555;
+    opacity: 1;
+}
+
+#text1 p a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+#text1 hr {
+    margin: 1rem 0rem;
+    opacity: 0.5;
+}
+
+
+#text2 {
+    position: relative;
+    top: 9rem;
+    grid-area: text2;
+    width: 34rem;
+
+}
+
+#text2 a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#img2 {
+    position: relative;
+    top: 9rem;
+    grid-area: img2;
+}
+
+#img2 img {
+    width: 30rem;
+    /* height: 21rem */
+}
+
+#text2 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text2 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+.middle-hr {
+    width: 10rem;
+    opacity: 1;
+}
+
+
+
+
+
+#text3 {
+    position: relative;
+    top: 20rem;
+    grid-area: text3;
+    width: 34rem;
+
+}
+
+#text3 a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#img3 {
+    position: relative;
+    top: 20rem;
+    grid-area: img3;
+}
+
+#img3 img {
+    width: 30rem;
+    /* height: 21rem */
+}
+
+#text3 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text3 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+
+
+#text4 {
+    position: relative;
+    top: 28rem;
+    grid-area: text4;
+    width: 34rem;
+
+}
+
+#text4 a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#img4 {
+    position: relative;
+    top: 28rem;
+    grid-area: img4;
+}
+
+#img4 img {
+    width: 30rem;
+    /* height: 21rem */
+}
+
+#text4 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text4 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+
+
+#text5 {
+    position: relative;
+    top: 39rem;
+    grid-area: text5;
+    width: 34rem;
+
+}
+
+#img5 {
+    position: relative;
+    top: 39rem;
+    grid-area: img5;
+}
+
+#img5 img {
+    width: 30rem;
+    /* height: 21rem */
+}
+
+#text5 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text5 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+
+
+
+#text6 {
+    position: relative;
+    top: 50rem;
+    grid-area: text6;
+    width: 34rem;
+
+}
+
+#text6 a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+#img6 {
+    position: relative;
+    top: 50rem;
+    grid-area: img6;
+}
+
+#img6 img {
+    width: 30rem;
+    /* height: 21rem */
+}
+
+#text6 h1 {
+    font-size: 3rem;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text6 p {
+    padding: 1.3rem 0rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5f6368;
+}
+
+.footer ul {
+    position: relative;
+    top: 65rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* border: 2px solid red; */
+    list-style: none;
+    background-color: #e9e9e9;
+    box-shadow: -0px -3px -9px #d9d2d2
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #80868b;
+}
+
+.footer ul a:hover {
+    color: black;
+
+}
+
+
+@media (max-width:1282px) {
+    .container nav {
+        width: 80rem;
+
+    }
+     .footer ul{
+        width: 80rem;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:650px){
+.nav-mid ul a {
+    font-size: 1.5rem;
+}
+.nav-mid ul {
+    top: 1rem;
+}
+#text1 span input {
+    font-size: 1.5rem;
+}
+.nav-end button:nth-child(1) a {
+    font-size: 1.2rem;
+}
+.nav-end button:nth-child(2) a {
+    font-size: 1.2rem;
+}
+#text1 button a {
+    font-size: 1.5rem;
+}
+#text1 p{
+    font-size: 1.7rem;
+}
+#text2 p{
+    font-size: 1.7rem;
+}
+#text3 p{
+    font-size: 1.7rem;
+}
+#text4 p{
+    font-size: 1.7rem;
+}
+#text5 p{
+    font-size: 1.7rem;
+}
+#text6 p{
+    font-size: 1.7rem;
+}
+
+
+
+#text2 a{
+    font-size: 1.7rem;
+}
+#text3 a{
+    font-size: 1.7rem;
+}
+#text4 a{
+    font-size: 1.7rem;
+}
+#text6 a{
+    font-size: 1.7rem;
+}
+
+
+}
+
+@media only screen and (max-width:425px){
+
+    .nav-mid ul {
+        width: 0;
+        display: none;
+    }
+    .navbar {
+        flex-wrap:wrap; 
+    height: 8rem;
+    }
+    .meet-nav a {
+    font-size: 3rem;
+    }
+    .meet-nav img {
+    top: 1.2rem;
+    width: 4rem;
+}
+.nav-end button {
+    width: 16rem;
+    margin: 2rem 0.3rem;
+}
+
+#text1 button {
+    width: 25rem;
+}
+.nav-end button:nth-child(1) a {
+    font-size: 2rem;
+}
+.nav-end button:nth-child(2) a {
+    font-size: 1.8rem;
+}
+    .footer ul{
+        top: 77rem;
+        width: 80rem;
+    }
+    .container-2{
+        grid-template-columns: 1fr;
+    grid-template-areas:
+        'img1'
+        'text1'
+        'img2'
+        'text2'
+        'img3'
+        'text3'
+        'img4'
+        'text4'
+        'img5'
+        'text5'
+        'img6'
+        'text6'
+    ;
+    }
+    #img1 img {
+        width: auto;
+    }
+    #text1 {
+        grid-area: text1;
+        width: auto;
+        margin-top: 2rem;
+        margin-right: 7rem;
+    }
+    #text1 p {
+        font-size: 2rem;
+    }
+    #text1 button {
+        font-size: 2rem;
+    }
+    #text1 span input {
+        font-size: 2rem;
+    }
+    #text1 span {
+        font-size: 2rem;
+    }
+    #img2 img {
+        width: 69rem;
+        height: 39rem;
+    }
+    #img2 {
+        top: 16rem;
+    }
+    #text2 {
+    width: auto;
+    margin-right: 7rem;
+    top: 16rem;
+    }
+    #text2 p {
+        font-size: 2rem;
+    }
+    #img2 {
+        top: 10rem;
+    }
+    #text2 a {
+        font-size: 2rem;
+    }
+
+
+    #img3 img {
+        width: 69rem;
+        height: 39rem;
+    }
+    #img3 {
+        top: 20rem;
+    }
+    #text3 {
+    width: auto;
+    margin-right: 7rem;
+    top: 25rem;
+    }
+    #text3 p {
+        font-size: 2rem;
+    }
+   
+    #text3 a {
+        font-size: 2rem;
+    }
+
+    
+
+
+    #img4 img {
+        width: 69rem;
+        height: 39rem;
+    }
+    #img4 {
+        top: 33rem;
+    }
+    #text4 {
+    width: auto;
+    margin-right: 7rem;
+    top: 40rem;
+    }
+    #text4 p {
+        font-size: 2rem;
+    }
+    
+    #text4 a {
+        font-size: 2rem;
+    }
+
+
+
+
+    #img5 img {
+        width: 69rem;
+        height: 39rem;
+    }
+    #img5 {
+        top: 48rem;
+    }
+    #text5 {
+    width: auto;
+    margin-right: 7rem;
+    top: 50rem;
+    }
+    #text5 p {
+        font-size: 2rem;
+    }
+    
+    #text5 a {
+        font-size: 2rem;
+    }
+
+
+
+
+    #img6 img {
+        width: 69rem;
+        height: 39rem;
+    }
+    #img6 {
+        top: 56rem;
+    }
+    #text6 {
+    width: auto;
+    margin-right: 7rem;
+    top: 61rem;
+    }
+    #text6 p {
+        font-size: 2rem;
+    }
+    
+    #text6 a {
+        font-size: 2rem;
+    }
+
+}
